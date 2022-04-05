@@ -2,7 +2,7 @@
 //  list.swift
 //  Assignment API
 //
-//  Created by coditas on 05/04/22.
+//  Created by coditas on 03/04/22.
 //
 
 import Foundation
@@ -12,7 +12,7 @@ class Items {
     
     struct Returned: Codable {
         
-        var Items: Items
+        var Items: String
         
        
     }
