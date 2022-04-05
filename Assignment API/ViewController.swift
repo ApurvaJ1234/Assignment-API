@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UISearchBarDelegate {
     
     let arrCountry = ["India","USA","UAE","Australia","Pakistan","Bangladesh","China","Japan","Russia","Ukraine"]
     
@@ -18,8 +18,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         tableview1.dataSource = self
         tableview1.delegate = self
+        searchbar.delegate = self
     }
-
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+     c
+    
 
 }
 
