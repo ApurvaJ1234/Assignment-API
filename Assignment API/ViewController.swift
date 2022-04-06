@@ -21,10 +21,10 @@ class ViewController: UIViewController, UISearchBarDelegate {
         searchbar.delegate = self
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-     c
+
     
 
 }
